@@ -25,24 +25,21 @@ Download the **ASD-Mamba** model from the provided Google Drive link and move it
 - Move `ASD_model.pth` to: `net/pre_trained_weights`
 
 # Usage
-## Generate Saliency Maps
+## Generate Atypical Saliency Maps
 
-To generate atypical saliency maps, use the `ASDtest.py` script; To generate typical saliency maps, use the `TDtest.py` script. Here are the steps and commands:
+If you want to generate atypical gray saliency maps using the trained model parameters, use the `ASDgary.py` script; To generate hotmaps, use the `ASDhot.py` script. Here are the steps and commands:
 
 ```bash
-python ASDtest.py
-python TDtest.py
+python ASDgary.py
+python ASDhot.py
 ```
 #### Example Images
 
 
-| Input                                                         | ASD-Mamba for atypical saliency map                                                       |
-|---------------------------------------------------------------|-----------------------------------------------------------|
-| <img src="assets/input.jpg" alt="Original Image" width="300"> | <img src="assets/sum.png" alt="Saliency Map" width="300"> |
+| ASD-Mamba for atypical saliency map                           |
+|---------------------------------------------------------------|
+| <img src="assets/input.jpg" alt="Original Image" width="300"> |
 
-| Input                                                         | ASD-Mamba for typical saliency map                                                       |
-|---------------------------------------------------------------|-----------------------------------------------------------|
-| <img src="assets/input.jpg" alt="Original Image" width="300"> | <img src="assets/sum.png" alt="Saliency Map" width="300"> |
 
 ## Training
 
