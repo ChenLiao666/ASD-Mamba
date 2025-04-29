@@ -1,5 +1,5 @@
 # ASD-Mamba
-![ASD-Mamba Module](architecture.png)
+![ASD-Mamba Module](model.png)
 
 (a) Overview of **ASD-Mamba** model, (b) Efficient Adaptive Visual State Space (EA-VSS) block,  
 (c) Visual State Space (VSS), and (d) Conditional Visual State Space (C-VSS).
