@@ -1,10 +1,12 @@
 # ASD-Mamba
-ASD-Mamba: Early Detection of Autism Spectrum Disorder Using Mamba-Based Atypical Visual Saliency Prediction
-<div align="center">
-    <img src="Architecture.png" alt="ASD-Mamba Module" style="width: 80%;">
-    <p style="font-size: small;">(a) Overview of <strong>ASD-Mamba</strong> model, (b) Efficient Adaptive Visual State
-Space (EA-VSS) block,(c)Visual State Space (VSS), and (d) Conditional Visual State Space (C-VSS).</p>
-</div>
+<p align="center">
+  <img src="Architecture.png" alt="ASD-Mamba Module" width="80%">
+</p>
+<p align="center" style="font-size: small;">
+  (a) Overview of <strong>ASD-Mamba</strong> model, (b) Efficient Adaptive Visual State Space (EA-VSS) block, 
+  (c) Visual State Space (VSS), and (d) Conditional Visual State Space (C-VSS).
+</p>
+
 
 # Installation
 
@@ -36,9 +38,9 @@ python ASDhot.py
 #### Example Images
 
 
-| ASD-Mamba for atypical saliency map                           |
-|---------------------------------------------------------------|
-| <img src="ASDproduct.png" alt="Original Image" width="300"> |
+| ASD-Mamba for atypical saliency map |
+|-------------------------------------|
+| ![Original Image](ASDproduct.png)   |
 
 
 ## Training
