@@ -1,11 +1,8 @@
 # ASD-Mamba
-<p align="center">
-  <img src="Architecture.png" alt="ASD-Mamba Module" width="80%">
-</p>
-<p align="center" style="font-size: small;">
-  (a) Overview of <strong>ASD-Mamba</strong> model, (b) Efficient Adaptive Visual State Space (EA-VSS) block, 
-  (c) Visual State Space (VSS), and (d) Conditional Visual State Space (C-VSS).
-</p>
+![ASD-Mamba Module](Architecture.png)
+
+(a) Overview of **ASD-Mamba** model, (b) Efficient Adaptive Visual State Space (EA-VSS) block,  
+(c) Visual State Space (VSS), and (d) Conditional Visual State Space (C-VSS).
 
 
 # Installation
