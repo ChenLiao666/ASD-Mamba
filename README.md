@@ -47,6 +47,7 @@ To train the model, first download the necessary pre-trained weights and dataset
 2. **Datasets**: Download the typical saliency datasets, consisting of four different sets (SALICON, MIT1003, CAT2000, and SALECI), from the provided link. The zip file contains 256×256 images of stimuli, saliency maps, fixation maps, and dataset ID CSV files.
 Download the atypical saliency dataset [Saliency4ASD](https://saliency4asd.ls2n.fr/) from the corresponding link. The zip file contains 256×256 images of stimuli, saliency maps, fixation maps, and dataset ID CSV files.
    - [Download Typical Saliency Datasets](https://drive.google.com/file/d/1ZEy8NnhHxPgGJ1iMgyvb8CU8vmWR3w6x/view?usp=drive_link)
+To ensure the fairness of the experiments, the test set of the ASD dataset was randomly partitioned：
    - [Download Atypical Saliency Datasets](-------)
 
 Run the training process:
