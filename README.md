@@ -29,7 +29,6 @@ Download the **ASD-Mamba** model from the provided Google Drive link and move it
 If you want to generate atypical gray saliency maps using the trained model parameters, use the `ASDgary.py` script; To generate hotmaps, use the `ASDhot.py` script. Here are the steps and commands:
 
 ```bash
-python ASDgary.py
 python ASDhot.py
 ```
 #### Example Images
@@ -46,21 +45,14 @@ To train the model, first download the necessary pre-trained weights and dataset
 
 1. **Pretrained Encoder Weights**: Download from [VMamba GitHub](https://github.com/MzeroMiko/VMamba/releases/download/%2320240218/vssmsmall_dp03_ckpt_epoch_238.pth)  or [google drive](https://drive.google.com/file/d/1zUczEDh09Sr2HtQclYwGBvTh0Gwydr52/view?usp=sharing) and move the file to `net/pre_trained_weights/vssmsmall_dp03_ckpt_epoch_238.pth`.
 2. **Datasets**: Download the typical saliency datasets, consisting of four different sets (SALICON, MIT1003, CAT2000, and SALECI), from the provided link. The zip file contains 256×256 images of stimuli, saliency maps, fixation maps, and dataset ID CSV files.
-Download the atypical saliency dataset (Saliency4ASD) from the corresponding link. The zip file contains 256×256 images of stimuli, saliency maps, fixation maps, and dataset ID CSV files.
-   - [Download Typical Saliency Datasets](-------)
+Download the atypical saliency dataset [Saliency4ASD](https://saliency4asd.ls2n.fr/) from the corresponding link. The zip file contains 256×256 images of stimuli, saliency maps, fixation maps, and dataset ID CSV files.
+   - [Download Typical Saliency Datasets](https://drive.google.com/file/d/1ZEy8NnhHxPgGJ1iMgyvb8CU8vmWR3w6x/view?usp=drive_link)
    - [Download Atypical Saliency Datasets](-------)
 
 Run the training process:
 
 ```bash
 python train.py
-```
-## Validation
-
-To validate the model on the typical saliency dataset's validation set, first download the dataset as described above. Then, run the validation script:
-
-```bash
-python TDval.py
 ```
 
 ## Test
