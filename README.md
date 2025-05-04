@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 Download the **ASD-Mamba** model from the provided Google Drive link and move it to the specified directory:
 
-- [Download ASD-Mamba model](---): `ASD_model.pth` for Atypical Visual Saliency Prediction; `TD_model.pth` for typical Visual Saliency Prediction
+- [Download ASD-Mamba model](---): `ASD_model.pth` for Atypical Visual Saliency Prediction
 - Move `ASD_model.pth` to: `net/pre_trained_weights`
 
 # Usage
@@ -29,7 +29,7 @@ Download the **ASD-Mamba** model from the provided Google Drive link and move it
 If you want to generate atypical gray saliency maps using the trained model parameters, use the `ASDgary.py` script; To generate hotmaps, use the `ASDhot.py` script. Here are the steps and commands:
 
 ```bash
-python ASDhot.py
+python ASDgray.py
 ```
 #### Example Images
 
