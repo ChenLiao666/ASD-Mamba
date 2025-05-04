@@ -20,8 +20,8 @@ pip install -r requirements.txt
 
 Download the **ASD-Mamba** model from the provided Google Drive link and move it to the specified directory:
 
-- [Download ASD-Mamba model](---): `ASD_model.pth` for Atypical Visual Saliency Prediction
-- Move `ASD_model.pth` to: `net/pre_trained_weights`
+- [Download ASD-Mamba model](https://drive.google.com/file/d/13cX1OKXEgAruUt46oA96zO5lonoaoi_T/view?usp=drive_link): `ASDMamba.pth` for Atypical Visual Saliency Prediction
+- Move `ASDMamba.pth` to: `net/pre_trained_weights`
 
 # Usage
 ## Generate Atypical Saliency Maps
@@ -48,7 +48,7 @@ To train the model, first download the necessary pre-trained weights and dataset
 Download the atypical saliency dataset [Saliency4ASD](https://saliency4asd.ls2n.fr/) from the corresponding link. The zip file contains 256×256 images of stimuli, saliency maps, fixation maps, and dataset ID CSV files.
    - [Download Typical Saliency Datasets](https://drive.google.com/file/d/1ZEy8NnhHxPgGJ1iMgyvb8CU8vmWR3w6x/view?usp=drive_link)
 To ensure the fairness of the experiments, the test set of the ASD dataset was randomly partitioned：
-   - [Download Atypical Saliency Datasets](-------)
+   - [Download Atypical Saliency Datasets](https://drive.google.com/file/d/1hpNOPE_HGe-0txuaAmR7dTgIzf6yXET4/view?usp=drive_link)
 
 Run the training process:
 
