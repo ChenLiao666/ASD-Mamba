@@ -53,7 +53,7 @@ To ensure the fairness of the experiments, the test set of the ASD dataset was r
 Run the training process:
 
 ```bash
-python train.py
+python ASDtrain.py
 ```
 
 ## Test
