@@ -63,7 +63,7 @@ class LayerNorm(nn.Module):
 
 class FDA(nn.Module):
     def __init__(self, dim, bias=False):
-        super(FSAS, self).__init__()
+        super(FDA, self).__init__()
 
         self.to_hidden = nn.Conv2d(dim, dim * 6, kernel_size=1, bias=bias)
         self.to_hidden_dw = nn.Conv2d(dim * 6, dim * 6, kernel_size=3, stride=1, padding=1, groups=dim * 6, bias=bias)
