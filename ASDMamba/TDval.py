@@ -92,7 +92,6 @@ if config.network == 'asd':
     model.load_from()
     model.cuda()
 
-total_params = sum(p.numel() for p in model.parameters())
 
 # Load the pre-trained model weights
 model.load_state_dict(torch.load('TD.pth', map_location=device))
