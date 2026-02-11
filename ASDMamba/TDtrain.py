@@ -116,7 +116,7 @@ if config.network == 'asd':
     model.load_from()
     model.cuda()
 
-optimizer = optim.Adam(model.parameters(), lr=1e-4)
+optimizer = optim.Adam(model.parameters(), lr=1e-5)
 scheduler = lr_scheduler.StepLR(optimizer, step_size=6, gamma=0.1)
 loss_fn = SaliencyLoss()
 mse_loss = nn.MSELoss()
