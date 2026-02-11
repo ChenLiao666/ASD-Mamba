@@ -116,7 +116,7 @@ if config.network == 'asd':
     model.load_from()
     model.cuda()
 
-optimizer = optim.Adam(model.parameters(), lr=1e-5)
+optimizer = optim.Adam(model.parameters(), lr=1e-4)
 scheduler = lr_scheduler.StepLR(optimizer, step_size=6, gamma=0.28)
 loss_fn = SaliencyLoss()
 mse_loss = nn.MSELoss()
@@ -124,11 +124,11 @@ mse_loss = nn.MSELoss()
 # Training and Validation Loop
 best_model_wts = copy.deepcopy(model.state_dict())
 best_loss = float('inf')
-num_epochs = 50
+num_epochs = 40
 
 # Early stopping setup
 early_stop_counter = 0
-early_stop_threshold = 8
+early_stop_threshold = 4
 
 for epoch in range(num_epochs):
     print(f'Epoch {epoch + 1}/{num_epochs}')
